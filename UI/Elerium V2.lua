@@ -14,7 +14,7 @@ local ui_options = {
 do
 	local imgui = game:GetService("CoreGui"):FindFirstChild("imgui")
 	if imgui then imgui:Destroy() end
-	task.wait(.1)
+	task.wait(.2)
 end
 
 local imgui = Instance.new("ScreenGui")
